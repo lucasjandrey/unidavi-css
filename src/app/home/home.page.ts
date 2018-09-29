@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
+  colorChange() {
+    document.querySelector('html').style.setProperty('--ion-color-primary', 'green');
+  }
 }

@@ -1,5 +1,5 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar color="primary">
     <ion-title>
       Ionic Blank
     </ion-title>
@@ -9,4 +9,17 @@
 <ion-content padding>
   The world is your oyster.
   <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs">docs</a> will be your guide.</p>
+  <ion-button (click)="colorChange()"> Mudar cor principal</ion-button>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Card Title</ion-card-title>
+      <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      <p>Conteúdo do Card</p>
+    </ion-card-content>
+
+    <ion-button color="primary">Card button </ion-button>
+  </ion-card>
+
 </ion-content>
